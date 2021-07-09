@@ -39,6 +39,7 @@ body {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 5px;
 }
 
 .ticket-caption {
@@ -60,6 +61,11 @@ body {
     font-size: 1.5rem;
 }
 
+.ticket-btn a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
 .container:hover .ticket {
     opacity: 0.5;
 }
@@ -71,6 +77,15 @@ body {
 .ticket-btn:hover {
     background-color: rgb(218, 218, 218);
     border: 2px solid rgb(218, 218, 218);
+}
+
+.card {
+    border: 1px solid gray;
+}
+
+.card-title a{
+    text-decoration: none;
+    color: black;
 }
 
 footer {
