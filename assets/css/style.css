@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+.nav-tabs {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-tabs button {
+    border-radius: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.nav-tabs .active {
+    background-color: rgb(218, 218, 218) !important;
+}
+
+.nav-tabs button:hover {
+    border: none;
+}
