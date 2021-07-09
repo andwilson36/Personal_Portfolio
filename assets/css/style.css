@@ -20,3 +20,62 @@ body {
 .nav-tabs button:hover {
     border: none;
 }
+
+.abt-me {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+.container {
+    margin-top: 4rem;
+    position: relative;
+    width: 50%;
+}
+  
+.ticket {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.ticket-caption {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ticket-btn {
+    background-color: rgb(218, 218, 218, .8);
+    border: 2px solid rgb(218, 218, 218, .8);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.container:hover .ticket {
+    opacity: 0.5;
+}
+
+.container:hover .ticket-caption{
+    opacity: 1;
+}
+
+.ticket-btn:hover {
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+}
+
+footer {
+    padding: 2rem;
+    margin-top: 4rem;
+    border-top: 2px solid gray;
+    background-color: rgb(184, 184, 184);
+}
