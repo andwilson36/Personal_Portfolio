@@ -36,60 +36,37 @@ body {
     width: 50%;
 }
   
-.ticket {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    border-radius: 5px;
-}
-
-.ticket-caption {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.ticket-btn {
-    background-color: rgb(218, 218, 218, .8);
-    border: 2px solid rgb(218, 218, 218, .8);
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 1.5rem;
-}
-
-.ticket-btn a {
-    text-decoration: none;
-    color: #6c757d;
-}
-
-.container:hover .ticket {
-    opacity: 0.5;
-}
-
-.container:hover .ticket-caption{
-    opacity: 1;
-}
-
-.ticket-btn:hover {
-    background-color: rgb(218, 218, 218);
-    border: 2px solid rgb(218, 218, 218);
+.project-card {
+    width: 70%
 }
 
 .card {
-    border: 1px solid gray;
+    border: 1px solid rgb(150, 150, 150);
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
 
-.card-title a{
+.long-rides .card-text{
+    color: black;
+    padding: 0px;
+}
+
+.ticket .card-text{
+    color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+.ticket .card-text a{
+    color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+.weather-dashboard .card-text{
+    color: black;
+    padding: 0px;
+}
+
+.card-text a{
     text-decoration: none;
     color: black;
 }
