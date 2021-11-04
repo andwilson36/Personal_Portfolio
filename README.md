@@ -1,5 +1,5 @@
 # Personal_Portfolio
-Portfolio which hosts my projects and description of achievements along with strengths.
+Portfolio which hosts my projects and achievements along with strengths.
 
 Link to deployed website: https://andwilson36.github.io/Personal_Portfolio/
 
